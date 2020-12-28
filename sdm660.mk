@@ -587,11 +587,9 @@ PRODUCT_COPY_FILES += \
 
 # VR
 PRODUCT_PACKAGES += \
-    vr.sdm660
-
-PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
-    android.hardware.vr@1.0-service
+    android.hardware.vr@1.0-service \
+    vr.sdm660
 
 # WiFi
 PRODUCT_PACKAGES += \
