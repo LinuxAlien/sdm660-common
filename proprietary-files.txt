@@ -58,8 +58,8 @@ vendor/lib64/libcdsprpc.so|9b269bfe9d91fc6359745482b2cb42625248c34c
 vendor/lib64/libsysmon_cdsp_skel.so|40d3511922c744016c419983b18f97952c23fee5
 
 # Audio - from LA.UM.8.2.r1-07400-sdm660.0
+-framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
-framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 vendor/lib/libacdb-fts.so|a2f09f2a01c326d6b57b1c0e406c92850ceef439
 vendor/lib/libacdbloader.so|3c294e9ed4ab4640830197f33028b342f9351a0f
 vendor/lib/libacdbrtac.so|98a8a9cf331cc10c755c808da3bf4da5d4de0c2a
@@ -224,11 +224,11 @@ vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|6d82db4f225b2256f803b30d18117
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|841104a6d894f2afb733bb2317b70092298a8537
 
 # DPM - from LA.UM.8.2.r1-07400-sdm660.0
+-product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|a07af37e4ec307762b687d07fb8ed1c9c26a6712
 product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|c98e86f374d8c5bb7fa59f652ad94d1db4b0eda1
 product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|491780c6ffe82c3428f2e9e62bfec395df96bfc1
-product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so|ddef98d55e3045ebac458b38165acd5d2f75cd7a
 vendor/bin/dpmQmiMgr|97b96d38bd463da36c57ae5161b3ce9728b63b45
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
@@ -237,9 +237,9 @@ vendor/lib64/libdpmqmihal.so|24b4b7ece0f0ba468e59d2ddcdaa62733635216b
 
 # DPM - from LA.QSSI.11.0.r1-09400-qssi.0
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
+-system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
 system_ext/bin/dpmd|33d90a04b4094ea346faa25c64c595071f70c26c
 system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so|133f0bb54be39eefa757eb95d6935779e32d8cce
-system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
 system_ext/lib/libdpmctmgr.so|5e4fdedb0745374bfe78c33e5df2c18b35ba6fde
 system_ext/lib/libdpmfdmgr.so|99cf46fc5f6e9793151199fe246428552c9c586f
 system_ext/lib/libdpmframework.so|fd592e4e68548a61690f78652e2a3e9776fd47e7
@@ -280,6 +280,7 @@ vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|57707e6f61b289e43a
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|b2d1f88ccd334631ea2002a5b6b5c8557201278f
 
 # DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml|dc8a52744f09f7175903260ec8f7ea2364237509
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib/mediadrm/libwvdrmengine.so|a8bdbbfb3aa222095f1cb7658ec5c46fa41dd560
@@ -322,7 +323,7 @@ vendor/bin/loc_launcher|684028ffab3ef293a241386710fe5855d2b2f70a
 vendor/bin/lowi-server|36498b2d281a7a6fc2cd5df7ac2c71829b86d62b
 vendor/bin/mlid|27df08e6fc1b70181f55a14e712060fd4b725ee1
 vendor/bin/slim_daemon|7df683763f5933f439d33b0d0bff590628f4eaf9
-vendor/bin/xtra-daemon|6f58e24a69af664e295bf7595cc3ea40d04f7dd7
+vendor/bin/xtra-daemon|a3b63345bcff2c0be89904a3ad06d7bc72f210f1
 vendor/bin/xtwifi-client|a7649ab755c29242fc16161f5c2c84d4b59cf27b
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
@@ -711,7 +712,7 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863ed
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
 
 # Radio - from LA.QSSI.11.0.r1-09400-qssi.0
-system_ext/framework/qti-telephony-common.jar|e6f7c4df7b925073525d9b678f27087e1f45017f
+-system_ext/framework/qti-telephony-common.jar|e6f7c4df7b925073525d9b678f27087e1f45017f
 system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|c7d66dd81a14ed58939ec877984f7d526bcf1578
 
 # Radio (IMS) - from LA.UM.8.2.r1-07400-sdm660.0
@@ -792,6 +793,7 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so|eb64e30ae92d261b235380059a3b45
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|d45fdab2da0d2b189e98cdb45ca2fe9bb219e43a
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|d63a33bc0648ca3a6ca5bd88243dd84261c0235b
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so|2d36b2816c3e4953924c3910c402ca0c69d99cde
+vendor/lib64/vendor.qti.ims.callinfo@1.0.so|d63a33bc0648ca3a6ca5bd88243dd84261c0235b
 vendor/lib64/vendor.qti.ims.factory@1.0.so|6e58e9b7756ef5ccf881f4024f978277b6dea2c4
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|284569d31e32cb472ac5bba3b12a6e0252a86ea9
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|ce2b3153914239932f6c1880394869d05315143e
